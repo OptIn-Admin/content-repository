@@ -1,15 +1,16 @@
-# AI Vendor Assessments
+# Content Repository
 
-Comprehensive AI vendor assessments and guides for navigating the global AI landscape in 2025.
+Marketing and content repository containing AI vendor assessments, guides, and other marketing materials.
 
 ## 📋 Overview
 
-This repository contains detailed assessments of leading AI vendors and platforms, designed to help professional knowledge workers make informed decisions about AI adoption. The content is written in an accessible, professional tone that cuts through marketing hype to deliver practical guidance.
+This repository serves as the central hub for all marketing content, including comprehensive AI vendor assessments, guides, and other materials designed to help professional knowledge workers make informed decisions about AI adoption and other technology solutions.
 
 ## 🎯 Target Audience
 
 - **Professional knowledge workers** with limited AI experience
 - **Business decision-makers** evaluating AI solutions
+- **Marketing teams** creating content for technology audiences
 - **Teams** looking to implement AI in their workflows
 - **Individuals** seeking to understand the AI vendor landscape
 
@@ -38,7 +39,7 @@ This repository contains detailed assessments of leading AI vendors and platform
     └── Mistral AI Assessment.md
 ```
 
-## 🏢 Vendors Covered
+## 🏢 AI Vendors Covered
 
 ### Major AI Platforms
 - **OpenAI** - GPT-5 and ChatGPT ecosystem
@@ -60,7 +61,7 @@ This repository contains detailed assessments of leading AI vendors and platform
 
 ## 📖 Content Types
 
-### 1. Individual Vendor Assessments
+### 1. AI Vendor Assessments
 Each vendor assessment includes:
 - **LinkedIn Post Version** - Concise, social media-friendly format
 - **Comprehensive Document Version** - Detailed analysis and guidance
@@ -77,9 +78,14 @@ Each vendor assessment includes:
 - **AI Platform Comparison Template** - Framework for creating new assessments
 - **Project Context** - Status tracking and continuation guide
 
+### 4. Other Marketing Content
+- Additional marketing materials and content assets
+- Brand guidelines and voice documentation
+- Content templates and frameworks
+
 ## 🎨 Content Style
 
-Our assessments follow a distinctive brand voice:
+Our content follows a distinctive brand voice:
 - **Professional yet approachable** - Expert insights without academic stuffiness
 - **Lighthearted and engaging** - Uses humor and cultural references to make complex topics digestible
 - **Accessible and jargon-free** - Explains technical concepts in plain language
@@ -90,6 +96,7 @@ Our assessments follow a distinctive brand voice:
 1. **For Business Decision-Makers**: Start with the [Executive Summary](AI%20Vendor%20Assessments/Executive%20Summary-%20Your%20AI%20Vendor%20Adventure%20Guide.md)
 2. **For Individual Users**: Browse individual vendor assessments based on your needs
 3. **For Teams**: Review the [Complete AI Vendor Guide](AI%20Vendor%20Assessments/The%20Complete%20AI%20Vendor%20Guide-%20Navigate%20the%20Global%20AI%20Landscape.md)
+4. **For Content Creators**: Reference the [Brand Voice Guide](Brand%20Voice%20Guide%20-%20AI%20Vendor%20Assessment%20Series.md)
 
 ## 📅 Last Updated
 
@@ -106,7 +113,7 @@ Found something that needs updating? The AI landscape changes rapidly, and we we
 ## 📞 Contact
 
 - **Project Owner**: J. Po (jeff@novoacuity.io)
-- **Repository**: [GitHub](https://github.com/OptIn-Admin/ai-vendor-assessments)
+- **Repository**: [GitHub](https://github.com/OptIn-Admin/content-repository)
 
 ## 📄 License
 
