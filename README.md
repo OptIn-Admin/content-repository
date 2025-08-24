@@ -1,120 +1,134 @@
 # Content Repository
 
-Marketing and content repository containing AI vendor assessments, guides, and other marketing materials.
+Central repository for NovoAcuity's marketing content, brand materials, and strategic communications.
 
 ## 📋 Overview
 
-This repository serves as the central hub for all marketing content, including comprehensive AI vendor assessments, guides, and other materials designed to help professional knowledge workers make informed decisions about AI adoption and other technology solutions.
+This repository serves as the single source of truth for all NovoAcuity marketing and content materials. It houses comprehensive AI vendor assessments, brand guidelines, business context documentation, and other strategic content designed to support our mission of reducing stress in decision-making through data and technology.
 
-## 🎯 Target Audience
+## 🎯 Repository Purpose
 
-- **Professional knowledge workers** with limited AI experience
-- **Business decision-makers** evaluating AI solutions
-- **Marketing teams** creating content for technology audiences
-- **Teams** looking to implement AI in their workflows
-- **Individuals** seeking to understand the AI vendor landscape
+- **Centralize** all marketing and brand content in one version-controlled location
+- **Maintain** consistency across all client-facing materials
+- **Enable** efficient content creation and updates
+- **Preserve** content history through git version control
 
 ## 📁 Repository Structure
 
 ```
-├── README.md                                    # This file
-├── .gitignore                                  # Git ignore rules
-├── Brand Voice Guide - AI Vendor Assessment Series.md
-├── Perplexity - Leading AI vendor suites and how to use them.md
-├── AI Platform Comparison Output Template.md
-└── AI Vendor Assessments/
-    ├── AI Vendor Assessments Disclaimer.md
-    ├── CONTEXT - AI Vendor Assessment Project Status & Guide.md
-    ├── Executive Summary- Your AI Vendor Adventure Guide.md
-    ├── The Complete AI Vendor Guide- Navigate the Global AI Landscape.md
-    ├── Anthropic AI Assessment.md
-    ├── Google AI Assessment.md
-    ├── OpenAI Assessment.md
-    ├── xAI Assessment.md
-    ├── LangChain Assessment.md
-    ├── AWS Bedrock Assessment.md
-    ├── Alibaba Assessment.md
-    ├── DeepSeek Assessment.md
-    ├── Microsoft Copilot Assessment.md
-    └── Mistral AI Assessment.md
+Content/
+├── README.md                    # This file
+├── CLAUDE.md                    # AI assistant context for this repository
+├── .gitignore                   # Git ignore rules
+│
+├── AI Vendor Assessments/       # Comprehensive AI vendor guides
+│   ├── README.md               # Folder overview and navigation
+│   ├── Individual vendor assessments
+│   ├── Consolidated guides
+│   └── zzArchive/              # Obsolete templates and prompts
+│
+├── Brand Central/               # Brand and business documentation
+│   ├── README.md               # Folder overview
+│   ├── Brand Voice Guide.md
+│   ├── NovoAcuity-Business-Context-Synthesis.md
+│   └── How-to-Use-NovoAcuity-Business-Context-with-AI.md
+│
+└── [Future Content Areas]/      # Additional content categories as needed
 ```
 
-## 🏢 AI Vendors Covered
+## 🚀 Quick Navigation
 
-### Major AI Platforms
-- **OpenAI** - GPT-5 and ChatGPT ecosystem
-- **Anthropic** - Claude family with Constitutional AI
-- **Google AI** - Gemini, Vertex AI, and Workspace integration
-- **Microsoft Copilot** - Workplace productivity integration
+### For Different Audiences
 
-### Emerging & Specialized Players
-- **xAI** - Grok ecosystem with real-time capabilities
-- **DeepSeek** - Cost-effective reasoning and coding
-- **Mistral AI** - European open-source focus
-- **Alibaba** - China market and enterprise solutions
+- **Exploring AI Vendors**: Start with [AI Vendor Assessments](AI%20Vendor%20Assessments/)
+- **Creating Content**: Review [Brand Central](Brand%20Central/) for voice and style guidelines
+- **Understanding NovoAcuity**: See the [Business Context Synthesis](Brand%20Central/NovoAcuity-Business-Context-Synthesis.md)
 
-### Developer & Enterprise Tools
-- **AWS Bedrock** - Enterprise AI platform
-- **LangChain** - LLM application framework
-- **Hugging Face** - Open-source model hub
-- **Perplexity** - Research and knowledge work
+### Key Resources
 
-## 📖 Content Types
+- **AI Vendor Guides**: Detailed assessments of major AI platforms
+- **Brand Voice Guide**: How to write in NovoAcuity's distinctive style
+- **Business Context**: Company mission, frameworks, and positioning
 
-### 1. AI Vendor Assessments
-Each vendor assessment includes:
-- **LinkedIn Post Version** - Concise, social media-friendly format
-- **Comprehensive Document Version** - Detailed analysis and guidance
-- **Product lineup and use cases**
-- **Strengths vs. challenges comparison**
-- **Pricing and getting started guidance**
+## 💡 Core Frameworks
 
-### 2. Consolidated Guides
-- **Executive Summary** - High-level overview and decision framework
-- **Complete AI Vendor Guide** - Comprehensive navigation of the AI landscape
-- **Brand Voice Guide** - Content style and tone guidelines
+### DI-to-PI (DI2PI)
+Decision Intelligence-to-Presentation Intelligence - NovoAcuity's proprietary framework for comprehensive decision-making support.
 
-### 3. Templates & Resources
-- **AI Platform Comparison Template** - Framework for creating new assessments
-- **Project Context** - Status tracking and continuation guide
+### Gold Medal Decision-making (GMD)
+A certification standard ensuring information used in critical decisions is trustworthy and reliable.
 
-### 4. Other Marketing Content
-- Additional marketing materials and content assets
-- Brand guidelines and voice documentation
-- Content templates and frameworks
+## 📝 Content Management Guidelines
 
-## 🎨 Content Style
+### Version Control
+- Git handles all versioning - maintain only ONE active version of each file
+- Use descriptive commit messages for all changes
+- Never create versioned filenames (e.g., document_v1.md, document_v2.md)
 
-Our content follows a distinctive brand voice:
-- **Professional yet approachable** - Expert insights without academic stuffiness
-- **Lighthearted and engaging** - Uses humor and cultural references to make complex topics digestible
-- **Accessible and jargon-free** - Explains technical concepts in plain language
-- **Globally minded** - Considers international markets and regulatory requirements
+### File Organization
+- Keep production files with canonical, descriptive names
+- Use `zzArchive/` folders only for obsolete materials needed for context
+- Create README.md files for each major content area
 
-## 🚀 Getting Started
+### Content Standards
+- Follow brand voice guidelines for all content
+- Maintain professional, accessible tone
+- Focus on reducing complexity and stress in decision-making
+- Keep global perspective and regulatory awareness
 
-1. **For Business Decision-Makers**: Start with the [Executive Summary](AI%20Vendor%20Assessments/Executive%20Summary-%20Your%20AI%20Vendor%20Adventure%20Guide.md)
-2. **For Individual Users**: Browse individual vendor assessments based on your needs
-3. **For Teams**: Review the [Complete AI Vendor Guide](AI%20Vendor%20Assessments/The%20Complete%20AI%20Vendor%20Guide-%20Navigate%20the%20Global%20AI%20Landscape.md)
-4. **For Content Creators**: Reference the [Brand Voice Guide](Brand%20Voice%20Guide%20-%20AI%20Vendor%20Assessment%20Series.md)
+## 🔧 Working with This Repository
+
+### Prerequisites
+- Git for version control
+- Text editor for markdown files
+- Access to NovoAcuity Google Drive (for cloud sync)
+
+### Getting Started
+1. Clone the repository
+2. Review CLAUDE.md for AI-assisted work
+3. Check Brand Central for voice guidelines
+4. Make changes following the version control guidelines
+5. Commit with clear, descriptive messages
+
+### Best Practices
+- One file version only - let git handle history
+- Descriptive commit messages
+- Regular updates to reflect current AI landscape
+- Maintain brand consistency across all content
+
+## 🔄 Maintenance Schedule
+
+- **Weekly**: Review and update AI vendor information as needed
+- **Monthly**: Assess content relevance and accuracy
+- **Quarterly**: Brand voice and style review
+- **Annually**: Comprehensive business context update
+
+## 👥 Target Audiences
+
+### Primary
+- Senior corporate executives (CEOs, CIOs, CDOs)
+- Decision support teams
+- Professional knowledge workers adopting AI
+
+### Secondary
+- Marketing teams creating technology content
+- Partners and collaborators
+- Internal team members
 
 ## 📅 Last Updated
 
-August 23, 2025
-
-## ⚖️ Disclaimer
-
-> We (NovoAcuity, Perplexity, and Claude) last updated this on August 23, 2025, because navigating the AI vendor maze shouldn't require a PhD in computer science. This is our best take on a space that changes daily—think "helpful roadmap" not "gospel truth." Your mileage may vary, so definitely cross-check with your own AI assistant or that one colleague who actually reads all the release notes.
-
-## 🤝 Contributing
-
-Found something that needs updating? The AI landscape changes rapidly, and we welcome contributions to keep this resource current and accurate.
+August 24, 2025
 
 ## 📞 Contact
 
-- **Project Owner**: J. Po (jeff@novoacuity.io)
-- **Repository**: [GitHub](https://github.com/OptIn-Admin/content-repository)
+- **Content Owner**: J.Po (jeff@novoacuity.io)
+- **Company**: NovoAcuity
+- **Website**: [novoacuity.io](https://novoacuity.io)
 
-## 📄 License
+## 📄 License & Usage
 
-This content is provided for educational and informational purposes. Please respect the intellectual property of individual vendors and platforms referenced in these assessments.
+This repository contains proprietary NovoAcuity content. All materials are confidential and should be used only for authorized purposes. Please respect intellectual property rights of third-party vendors referenced in assessments.
+
+---
+
+*For AI-assisted work with this repository, refer to CLAUDE.md for specific context and guidelines.*
